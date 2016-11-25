@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnectionOld-Web.config Connection String" description="DefaultConnectionOld Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-week11-20161115101734.mdf;Initial Catalog=aspnet-week11-20161115101734;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Owner\\Desktop\\week11\\week11\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnectionOld']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=hanvindermusicstore.database.windows.net;Initial Catalog=MvcMusicS;Persist Security Info=True;User ID=hanvinder;Password=NewPassword!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Owner\\Desktop\\week11\\week11\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
